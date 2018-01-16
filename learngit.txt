@@ -1,0 +1,10 @@
+By this commit I would like to share how to install and to use some basic git commands
+
+
+Git is an distributed version control software.
+
+One can download git software from, https://git-scm.com/downloads  (copy this link in the search bar of your browser)
+
+Some of the basic commands for git are available at, https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+
+So, these are the sources that helped me in learning git.
