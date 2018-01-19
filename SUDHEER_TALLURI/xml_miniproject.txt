@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sudheer.mydream.productive.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA">
+        <ImageView
+            android:id="@+id/my_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/my_photo"
+            />
+        <TextView
+            android:id="@+id/first_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAME : T N V SUDHEER"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:layout_toRightOf="@id/my_image" />
+        <TextView
+            android:id="@+id/second_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AGE    : 18 YEARS"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:layout_below="@id/first_text"
+            android:layout_toRightOf="@id/my_image" />
+        <TextView
+            android:id="@+id/third_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEX    : MALE"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:layout_below="@id/second_text"
+            android:layout_toRightOf="@id/my_image" />
+        <TextView
+            android:id="@+id/fourth_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEPT : ECE"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:layout_below="@id/third_text"
+            android:layout_toRightOf="@id/my_image" />
+        <TextView
+            android:id="@+id/fifth_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RNO   : U16EC075"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:layout_below="@id/fourth_text"
+            android:layout_toRightOf="@id/my_image" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/my_image"
+            android:padding="20dp"
+            android:text="                I am T N V Sudheer from Btech 2 ECED of SVNIT. I'm intrested to learn android development which made me do all these things.This is just like a mini project for my major project to be done in AMOC."/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
