@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.android.mainproject.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="335dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+
+
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <ImageView
+              android:layout_width="175dp"
+              android:layout_height="175dp"
+              android:paddingTop="10dp"
+              android:src="@android:drawable/zoom_plate" />
+
+          <TextView
+              android:id="@+id/Clothes"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="50dp"
+              android:text="Clothes" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <ImageView
+              android:layout_width="175dp"
+              android:layout_height="175dp"
+              android:paddingTop="10dp"
+              android:src="@android:drawable/zoom_plate" />
+
+          <TextView
+              android:id="@+id/Gadgets"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="50dp"
+              android:text="Gadgets" />
+
+      </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:paddingTop="10dp"
+                android:src="@android:drawable/zoom_plate" />
+
+            <TextView
+                android:id="@+id/Footwear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:text="Footwear" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:paddingTop="10dp"
+                android:src="@android:drawable/zoom_plate" />
+
+            <TextView
+                android:id="@+id/HomeAppliances"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:text="HomeAppliances" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:paddingTop="10dp"
+                android:src="@android:drawable/zoom_plate" />
+
+            <TextView
+                android:id="@+id/Fashion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:text="Fashion" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:paddingTop="10dp"
+                android:src="@android:drawable/zoom_plate" />
+
+            <TextView
+                android:id="@+id/Books"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:text="Books" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:paddingTop="10dp"
+                android:src="@android:drawable/zoom_plate" />
+
+            <TextView
+                android:id="@+id/PersonalCare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:text="PersonalCare" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:paddingTop="10dp"
+                android:src="@android:drawable/zoom_plate" />
+
+            <TextView
+                android:id="@+id/Mobiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:text="Mobiles" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
